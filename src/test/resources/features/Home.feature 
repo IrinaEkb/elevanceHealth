@@ -1,0 +1,26 @@
+Feature: Feature to navigate on main page
+
+  Scenario: Validate all links and tabs are working
+    Given the user is on the Elevance Health homepage
+    When the user checks the presence of the logo
+    Then the logo should be visible and clickable
+
+    When the user verifies the main navigation menu
+    Then the following tabs should be visible and clickable:
+      | Who We Are              |
+      | Our Approach To Health  |
+      | Research                |
+      | Stories                 |
+      | Newsroom                |
+      | Investors               |
+      | Search                  |
+
+    When the user checks the hero section
+    Then the hero image should be visible
+    And the headline "Elevating Whole Health and Advancing Health Beyond Healthcare" should be present
+
+    When the user scrolls to the 'Learn More About Us' section
+    Then the link or button should be visible and clickable
+
+    When the user checks the featured articles
+    Then each article link should be visible and lead to the correct page
