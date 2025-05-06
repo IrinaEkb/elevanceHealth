@@ -30,6 +30,7 @@
             <scope>test</scope>
         </dependency>
 
+
         <!-- WebDriver Manager dependency for managing browser drivers -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
@@ -50,24 +51,20 @@
             <artifactId>log4j-api</artifactId>
             <version>2.24.1</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.24.1</version>
-        </dependency>
 
         <!-- Cucumber dependency for running BDD tests -->
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>7.21.1</version>
-            <scope>test</scope>
-        </dependency>
 
         <!-- Cucumber TestNG Dependency -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
+            <version>7.21.1</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
             <version>7.21.1</version>
             <scope>test</scope>
         </dependency>
@@ -84,6 +81,7 @@
             <version>7.10.0</version>
             <scope>compile</scope>
         </dependency>
+
 
     </dependencies>
 

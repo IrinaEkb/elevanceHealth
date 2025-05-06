@@ -1,23 +1,27 @@
 package utils;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver; // or any other WebDriver implementation
+import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
-    private static final ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
-    // 🔧 DriverFactory helps run tests in parallel without browser conflicts.
-    // It uses ThreadLocal to make sure each test runs in its own browser window.
+    private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
-    // getDriver(): Returns the WebDriver for the current test thread.
     public static WebDriver getDriver() {
-        return tlDriver.get();
+        // Initialize the WebDriver if it's null
+        if (driver.get() == null) {
+            // You can add browser-specific WebDriver setup here, for example:
+            driver.set(new ChromeDriver());  // For Chrome; update for other browsers if needed
+            driver.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        }
+        return driver.get();
     }
-    // setDriver(driver): Stores the WebDriver for the current test thread.
-    public static void setDriver(WebDriver driver) {
-        tlDriver.set(driver);
+
+    public static void setDriver(WebDriver driverInstance) {
+        driver.set(driverInstance);
     }
-    // unload(): Cleans up the WebDriver after the test to prevent memory issues.
+
     public static void unload() {
-        tlDriver.remove();
+        driver.remove();
     }
 }
-

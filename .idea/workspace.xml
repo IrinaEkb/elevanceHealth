@@ -4,40 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b2a400d-d19f-48b8-9cd1-8465343b7722" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CommercialMarketPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PublicPolicyPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/CSVReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/RegressionTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/SmokeTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CommercialMarketSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/HomeSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/PublicPolicySteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/regression/CommercialMarketUITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/regression/HomeUITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/regression/PublicPolicyUITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/smoke/CommercialMarketUISmoke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/smoke/HomeUISmoke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/smoke/PublicPolicyUISmoke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data/cities.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data/states.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/CommercialMarket.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Home.feature " afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/PublicPolicy.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-regression.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-smoke.xml" afterDir="false" />
+    <list default="true" id="9b2a400d-d19f-48b8-9cd1-8465343b7722" name="Changes" comment="1push">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/SmokeTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/SmokeTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/HomeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HomeSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/smoke/HomeUISmoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/smoke/HomeUISmoke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Home.feature " beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Home.feature " afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng-smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-smoke.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +34,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2wE949wWlDNRBIhOGVCqOJJC6J3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -67,6 +47,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/irinafendley/Projects/elevanceHealth/elevanceHealth/testng-smoke.xml.executor": "Run",
+    "TestNG.HomeUISmoke.executor": "Run",
+    "TestNG.HomeUISmoke.verifyAllLinksOnHomePage.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
@@ -79,6 +63,60 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
+  <component name="RunManager" selected="TestNG.HomeUISmoke.verifyAllLinksOnHomePage">
+    <configuration name="HomeUISmoke" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="elevanceHealth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.smoke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui.smoke" />
+      <option name="MAIN_CLASS_NAME" value="ui.smoke.HomeUISmoke" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeUISmoke.verifyAllLinksOnHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="elevanceHealth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.smoke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui.smoke" />
+      <option name="MAIN_CLASS_NAME" value="ui.smoke.HomeUISmoke" />
+      <option name="METHOD_NAME" value="verifyAllLinksOnHomePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/irinafendley/Projects/elevanceHealth/elevanceHealth/testng-smoke.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="elevanceHealth" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-smoke.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HomeUISmoke.verifyAllLinksOnHomePage" />
+        <item itemvalue="TestNG.HomeUISmoke" />
+        <item itemvalue="TestNG./Users/irinafendley/Projects/elevanceHealth/elevanceHealth/testng-smoke.xml" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,6 +126,19 @@
       <option name="presentableId" value="Default" />
       <updated>1745595674413</updated>
     </task>
+    <task id="LOCAL-00001" summary="1push">
+      <option name="closed" value="true" />
+      <created>1745633457100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745633457100</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1push" />
+    <option name="LAST_COMMIT_MESSAGE" value="1push" />
   </component>
 </project>

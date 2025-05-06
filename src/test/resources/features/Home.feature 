@@ -1,5 +1,5 @@
 Feature: Feature to navigate on main page
-
+  @Smoke
   Scenario: Validate all links and tabs are working
     Given the user is on the Elevance Health homepage
     When the user checks the presence of the logo
